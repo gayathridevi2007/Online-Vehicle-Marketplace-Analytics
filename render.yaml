@@ -16,6 +16,8 @@ services:
         generateValue: true
       - key: ADMIN_INVITATION_CODE
         generateValue: true
+      - key: FRONTEND_ORIGIN
+        value: https://vehicle-marketplace-analytics.onrender.com
       - key: SESSION_COOKIE_SECURE
         value: "true"
       - key: FLASK_DEBUG
