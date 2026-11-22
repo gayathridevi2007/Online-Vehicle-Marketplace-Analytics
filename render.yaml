@@ -3,7 +3,8 @@ services:
     name: vehicle-marketplace-analytics
     runtime: python
     plan: free
-    buildCommand: cd frontend     buildCommand: cd frontend && npm ci && npm run build && cd ../backend && pip install -r requirements.txt    buildCommand: cd frontend && npm ci && npm run build && cd ../backend && pip install -r requirements.txt npm install --no-audit --no-fund     buildCommand: cd frontend && npm ci && npm run build && cd ../backend && pip install -r requirements.txt    buildCommand: cd frontend && npm ci && npm run build && cd ../backend && pip install -r requirements.txt npm run build     buildCommand: cd frontend && npm ci && npm run build && cd ../backend && pip install -r requirements.txt    buildCommand: cd frontend && npm ci && npm run build && cd ../backend && pip install -r requirements.txt cd ../backend     buildCommand: cd frontend && npm ci && npm run build && cd ../backend && pip install -r requirements.txt    buildCommand: cd frontend && npm ci && npm run build && cd ../backend && pip install -r requirements.txt pip install -r requirements.txt
+    region: ohio
+    buildCommand: cd frontend && npm install --no-audit --no-fund && npm run build && cd ../backend && pip install -r requirements.txt
     startCommand: cd backend && gunicorn run:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120
     healthCheckPath: /api/health
     envVars:
