@@ -1,4 +1,6 @@
-from flask import Flask, jsonify
+from pathlib import Path
+
+from flask import Flask, abort, jsonify, send_from_directory
 from flask_cors import CORS
 
 from config.settings import Config
@@ -48,4 +50,26 @@ def create_app(config_overrides=None):
     if app.config["SQLALCHEMY_DATABASE_URI"]:
         db.init_app(app)
 
+    _register_frontend(app)
+
     return app
+
+
+FRONTEND_DIST = Path(__file__).resolve().parent.parent / "frontend" / "dist"
+
+
+def _register_frontend(app):
+    """Serve the built React app (production) from the same origin as the API."""
+    if not (FRONTEND_DIST / "index.html").is_file():
+        return
+
+    @app.get("/", defaults={"path": ""})
+    @app.get("/<path:path>")
+    def serve_frontend(path):
+        if path.startswith("api/") or path == "api":
+            abort(404)
+        candidate = FRONTEND_DIST / path
+        if path and candidate.is_file():
+            return send_from_directory(FRONTEND_DIST, path)
+        # Client-side routes (e.g. /sell-car) fall back to the React entry point.
+        return send_from_directory(FRONTEND_DIST, "index.html")

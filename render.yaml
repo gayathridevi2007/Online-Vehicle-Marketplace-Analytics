@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: vehicle-marketplace-analytics
+    runtime: python
+    plan: free
+    buildCommand: cd frontend && npm ci && npm run build && cd ../backend && pip install -r requirements.txt
+    startCommand: cd backend && gunicorn run:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.5
+      - key: DATABASE_URL
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ADMIN_INVITATION_CODE
+        generateValue: true
+      - key: SESSION_COOKIE_SECURE
+        value: "true"
+      - key: FLASK_DEBUG
+        value: "false"
