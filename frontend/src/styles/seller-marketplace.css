@@ -1,0 +1,588 @@
+
+/* SELLER MARKETPLACE — LIGHT THEME */
+
+@import './customer-marketplace.css';
+
+.seller-dashboard,
+.seller-dashboard-page,
+.my-listings-page,
+.resale-page-shell,
+.resale-page,
+.resale-form-page,
+.customer-listing-form-page {
+  background: #f8fafc !important;
+  color: #1e293b !important;
+  min-height: 100vh;
+}
+
+.seller-dashboard *,
+.my-listings-page *,
+.resale-form-page *,
+.customer-listing-form-page * {
+  color-scheme: light;
+}
+
+.seller-dashboard article,
+.my-listings-page article,
+.my-listings-page .listing-card,
+.resale-page-shell .resale-card,
+.resale-form-page .resale-card,
+.customer-listing-form-page .resale-card {
+  background: #ffffff !important;
+  color: #1e293b !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(15, 23, 42, 0.06);
+}
+
+.seller-dashboard h1,
+.seller-dashboard h2,
+.my-listings-page h1,
+.my-listings-page h2,
+.my-listings-page h3,
+.resale-form-page h1,
+.resale-form-page h2,
+.customer-listing-form-page h1,
+.customer-listing-form-page h2 {
+  color: #172554 !important;
+}
+
+.seller-dashboard p,
+.my-listings-page p,
+.resale-form-page p,
+.customer-listing-form-page p,
+.my-listings-page label,
+.resale-form-page label {
+  color: #475569;
+}
+
+.seller-dashboard input,
+.seller-dashboard select,
+.seller-dashboard textarea,
+.my-listings-page input,
+.resale-form-page input,
+.resale-form-page select,
+.resale-form-page textarea,
+.customer-listing-form-page input,
+.customer-listing-form-page select,
+.customer-listing-form-page textarea {
+  background: #ffffff !important;
+  color: #1e293b !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 8px;
+  min-height: 42px;
+}
+
+.seller-dashboard button,
+.my-listings-page button,
+.resale-form-page button,
+.customer-listing-form-page button {
+  border-radius: 8px;
+}
+
+.seller-dashboard button[type="submit"],
+.resale-form-page button[type="submit"],
+.customer-listing-form-page button[type="submit"],
+.resale-form-page .primary-button {
+  background: #2563eb !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.resale-form-page .step,
+.resale-form-page .step-content,
+.resale-form-page .wizard-content,
+.customer-listing-form-page .step-content {
+  background: #ffffff !important;
+  color: #1e293b !important;
+}
+
+.resale-form-page .progress,
+.resale-form-page .progress-bar {
+  background-color: #e2e8f0;
+}
+
+@media (max-width: 768px) {
+  .my-listings-page article {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+/* Seller listing light-theme overrides */
+.customer-marketplace .resale-page-shell {
+  background: #f8f9fa !important;
+  color: #1e293b !important;
+}
+
+.customer-marketplace .resale-page-heading h1 {
+  color: #172554 !important;
+}
+
+.customer-marketplace .resale-page-heading p {
+  color: #64748b !important;
+}
+
+.customer-marketplace .resale-seller-cta,
+.customer-marketplace .resale-my-listing,
+.customer-marketplace .resale-empty-state,
+.customer-marketplace .resale-locked-card {
+  background: #ffffff !important;
+  color: #1e293b !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 3px 12px rgba(15, 23, 42, .06) !important;
+}
+
+.customer-marketplace .resale-empty-state strong,
+.resale-page-shell .resale-empty-state strong {
+  color: #0f172a !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  display: block !important;
+  margin: 6px 0 !important;
+}
+
+.customer-marketplace .resale-empty-state p,
+.resale-page-shell .resale-empty-state p {
+  color: #475569 !important;
+  font-size: 0.95rem !important;
+  margin: 0 0 16px 0 !important;
+  line-height: 1.5 !important;
+}
+
+.customer-marketplace .resale-empty-state svg,
+.resale-page-shell .resale-empty-state svg {
+  color: #2563eb !important;
+  margin-bottom: 4px !important;
+}
+
+.customer-marketplace .resale-locked-card h2,
+.customer-marketplace .resale-locked-card h3,
+.resale-page-shell .resale-locked-card h2,
+.resale-page-shell .resale-locked-card h3 {
+  color: #0f172a !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  margin: 6px 0 !important;
+}
+
+.customer-marketplace .resale-locked-card p,
+.resale-page-shell .resale-locked-card p {
+  color: #475569 !important;
+  font-size: 0.95rem !important;
+  margin: 0 !important;
+}
+
+.customer-marketplace .resale-locked-card .customer-section-index,
+.resale-page-shell .resale-locked-card .customer-section-index {
+  color: #2563eb !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em !important;
+}
+
+.customer-marketplace .resale-my-listing-content h2 {
+  color: #172554 !important;
+}
+
+.customer-marketplace .resale-my-listing-content p {
+  color: #475569 !important;
+}
+
+.customer-marketplace .resale-status {
+  color: #92400e !important;
+}
+
+.customer-marketplace .resale-quiet-button {
+  background: #eff6ff !important;
+  color: #1d4ed8 !important;
+  border: 1px solid #bfdbfe !important;
+}
+
+.customer-marketplace .resale-danger-button {
+  background: #fff1f2 !important;
+  color: #be123c !important;
+  border: 1px solid #fecdd3 !important;
+}
+
+.customer-marketplace .resale-primary-link {
+  background: #2563eb !important;
+  color: #ffffff !important;
+  border: 0 !important;
+}
+
+.customer-marketplace .resale-form-help {
+  color: #64748b !important;
+}
+.customer-marketplace .resale-seller-cta > span {
+  color: #1e293b !important;
+  font-weight: 600;
+}
+
+/* SELL CAR WIZARD — LIGHT THEME ONLY */
+.customer-marketplace .resale-form-card,
+.customer-marketplace .resale-listing-form,
+.customer-marketplace .resale-form-page,
+.customer-marketplace .resale-wizard,
+.customer-marketplace .resale-wizard-content {
+  background: #ffffff !important;
+  color: #1e293b !important;
+  border-color: #e2e8f0 !important;
+}
+
+.customer-marketplace .resale-form-card *,
+.customer-marketplace .resale-listing-form *,
+.customer-marketplace .resale-wizard *,
+.customer-marketplace .resale-wizard-content * {
+  color: #334155;
+}
+
+.customer-marketplace .resale-form-card h1,
+.customer-marketplace .resale-form-card h2,
+.customer-marketplace .resale-form-card h3,
+.customer-marketplace .resale-listing-form h1,
+.customer-marketplace .resale-listing-form h2 {
+  color: #172554 !important;
+}
+
+.customer-marketplace .resale-form-card p,
+.customer-marketplace .resale-listing-form p,
+.customer-marketplace .resale-form-card label,
+.customer-marketplace .resale-listing-form label {
+  color: #475569 !important;
+}
+
+.customer-marketplace .resale-form-card input,
+.customer-marketplace .resale-form-card select,
+.customer-marketplace .resale-form-card textarea,
+.customer-marketplace .resale-listing-form input,
+.customer-marketplace .resale-listing-form select,
+.customer-marketplace .resale-listing-form textarea {
+  background: #ffffff !important;
+  color: #1e293b !important;
+  border: 1px solid #cbd5e1 !important;
+}
+
+.customer-marketplace .resale-form-card input::placeholder,
+.customer-marketplace .resale-listing-form input::placeholder {
+  color: #94a3b8 !important;
+}
+
+.customer-marketplace .resale-form-card button,
+.customer-marketplace .resale-listing-form button {
+  color: #ffffff;
+}
+
+.customer-marketplace .resale-form-card button[type="button"],
+.customer-marketplace .resale-listing-form button[type="button"] {
+  border-color: #cbd5e1;
+}
+
+.customer-marketplace .resale-form-card .resale-step,
+.customer-marketplace .resale-listing-form .resale-step {
+  background: #f8fafc !important;
+  color: #334155 !important;
+}
+
+/* =========================================
+   MARKETPLACE REVIEW — LIGHT UI
+   Scoped only to the review page
+========================================= */
+
+.resale-review-page {
+  min-height: 100vh !important;
+  background: #f5f7fb !important;
+  color: #1e293b !important;
+}
+
+.resale-review-page .resale-moderator-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap;
+  gap: 16px;
+  min-height: 76px;
+  padding: 12px 4.5% !important;
+  background: #ffffff !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+.resale-review-page .admin-review-header-actions {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.resale-review-page .admin-review-header-actions strong {
+  color: #334155 !important;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.resale-review-page .admin-review-back-button {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 15px !important;
+  background: #eff6ff !important;
+  color: #2563eb !important;
+  border: 1px solid #bfdbfe !important;
+  border-radius: 9px !important;
+  text-decoration: none !important;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.resale-review-page .admin-review-back-button:hover {
+  background: #dbeafe !important;
+}
+
+.resale-review-page .admin-review-header-actions .resale-quiet-button {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  width: auto !important;
+  min-height: 40px;
+  padding: 9px 15px !important;
+  background: #ffffff !important;
+  color: #334155 !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 9px !important;
+}
+
+.resale-review-page .resale-review-shell {
+  width: min(1120px, calc(100% - 40px)) !important;
+  max-width: 1120px !important;
+  margin: 38px auto 70px !important;
+}
+
+.resale-review-page .resale-page-heading {
+  margin-bottom: 28px;
+}
+
+.resale-review-page .resale-page-heading h1 {
+  color: #172554 !important;
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.2;
+  margin: 14px 0;
+}
+
+.resale-review-page .resale-page-heading p {
+  color: #64748b !important;
+  max-width: 720px;
+  line-height: 1.7;
+}
+
+.resale-review-page .resale-review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.resale-review-page .resale-seller-cta {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 18px 22px !important;
+  background: #ffffff !important;
+  color: #172554 !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 13px !important;
+  box-shadow: 0 3px 12px rgba(15, 23, 42, 0.04);
+  font-weight: 700;
+}
+
+.resale-review-page .resale-moderator-card {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr) !important;
+  align-items: start !important;
+  gap: 26px !important;
+  width: 100% !important;
+  padding: 24px !important;
+  background: #ffffff !important;
+  color: #1e293b !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 5px 18px rgba(15, 23, 42, 0.06) !important;
+}
+
+.resale-review-page .resale-moderator-card h2 {
+  color: #172554 !important;
+  font-size: 21px;
+  line-height: 1.35;
+  margin: 0 0 14px;
+}
+
+.resale-review-page .resale-moderator-card p,
+.resale-review-page .resale-moderator-card span {
+  color: #64748b !important;
+  line-height: 1.6;
+}
+
+.resale-review-page .resale-review-photo-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  align-items: start;
+  gap: 12px !important;
+  width: 100% !important;
+  min-width: 0;
+}
+
+.resale-review-page .resale-review-photo {
+  display: block !important;
+  width: 100% !important;
+  height: 220px !important;
+  max-height: 260px !important;
+  min-width: 0;
+  object-fit: contain !important;
+  object-position: center !important;
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 11px !important;
+}
+
+.resale-review-page .resale-review-documents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 16px 0;
+  padding: 16px !important;
+  background: #f8fafc !important;
+  color: #1e293b !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 11px !important;
+}
+
+.resale-review-page .resale-review-documents strong {
+  color: #172554 !important;
+}
+
+.resale-review-page .resale-review-documents a {
+  color: #2563eb !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.resale-review-page .resale-review-documents a:hover {
+  text-decoration: underline;
+}
+
+.resale-review-page .resale-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.resale-review-page .resale-review-note {
+  width: 100% !important;
+  min-height: 105px !important;
+  padding: 12px !important;
+  background: #ffffff !important;
+  color: #1e293b !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 9px !important;
+  resize: vertical;
+}
+
+.resale-review-page .resale-review-actions {
+  display: flex !important;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px !important;
+  margin-top: 15px;
+}
+
+.resale-review-page .resale-review-actions button {
+  min-height: 40px;
+  padding: 10px 14px !important;
+  border-radius: 9px !important;
+}
+
+.resale-review-page button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.resale-review-page .resale-transaction-card {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 20px !important;
+  background: #ffffff !important;
+  color: #334155 !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 13px !important;
+}
+
+.resale-review-page .resale-transaction-card strong {
+  color: #172554 !important;
+}
+
+.resale-review-page .resale-empty-state {
+  padding: 30px !important;
+  text-align: center;
+  background: #ffffff !important;
+  color: #334155 !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 13px !important;
+}
+
+.resale-review-page .resale-state {
+  color: #475569 !important;
+  padding: 18px;
+}
+
+@media (max-width: 850px) {
+  .resale-review-page .resale-moderator-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .resale-review-page .resale-review-photo {
+    height: 190px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .resale-review-page .resale-moderator-header {
+    align-items: flex-start !important;
+    padding: 12px 16px !important;
+  }
+
+  .resale-review-page .admin-review-header-actions {
+    justify-content: flex-start !important;
+    width: 100% !important;
+  }
+
+  .resale-review-page .resale-review-shell {
+    width: calc(100% - 24px) !important;
+    margin-top: 24px !important;
+  }
+
+  .resale-review-page .resale-moderator-card {
+    padding: 16px !important;
+  }
+
+  .resale-review-page .resale-review-photo {
+    height: 150px !important;
+  }
+}

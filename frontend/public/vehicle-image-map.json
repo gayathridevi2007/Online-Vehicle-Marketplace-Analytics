@@ -1,0 +1,162 @@
+{
+  "Maruti|Swift": {
+    "image": "/vehicles/Maruti_Swift.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Maruti Suzuki|Swift": {
+    "image": "/vehicles/Maruti_Swift.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Maruti|Baleno": {
+    "image": "/vehicles/Maruti_Baleno.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Maruti Suzuki|Baleno": {
+    "image": "/vehicles/Maruti_Baleno.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Maruti|Swift Dzire": {
+    "image": "/vehicles/Maruti_Dzire.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Maruti|Dzire": {
+    "image": "/vehicles/Maruti_Dzire.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Maruti|Ertiga": {
+    "image": "/vehicles/Maruti_Ertiga.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Maruti|Ciaz": {
+    "image": "/vehicles/Maruti_Dzire.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Maruti|Alto": {
+    "image": "/vehicles/Maruti_Swift.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Maruti|Wagon R": {
+    "image": "/vehicles/Maruti_Swift.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Hyundai|Creta": {
+    "image": "/vehicles/Hyundai_Creta.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Hyundai|i20": {
+    "image": "/vehicles/Hyundai_i20.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Hyundai|i10": {
+    "image": "/vehicles/Hyundai_i20.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Hyundai|Grand": {
+    "image": "/vehicles/Hyundai_i20.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Hyundai|Verna": {
+    "image": "/vehicles/Hyundai_Verna.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Honda|City": {
+    "image": "/vehicles/Honda_City.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Honda|Amaze": {
+    "image": "/vehicles/Honda_Amaze.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Toyota|Innova": {
+    "image": "/vehicles/Toyota_Innova.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Toyota|Fortuner": {
+    "image": "/vehicles/Toyota_Innova.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Mahindra|XUV500": {
+    "image": "/vehicles/Mahindra_XUV500.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Tata|Nexon": {
+    "image": "/vehicles/Tata_Nexon.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Tata|Harrier": {
+    "image": "/vehicles/Tata_Nexon.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Volkswagen|Polo": {
+    "image": "/vehicles/Volkswagen_Polo.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Ford|Ecosport": {
+    "image": "/vehicles/Ford_Ecosport.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "BMW|3 Series": {
+    "image": "/vehicles/BMW_3_Series.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Porsche|911 Carrera": {
+    "image": "/vehicles/Porsche_911.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Porsche|911": {
+    "image": "/vehicles/Porsche_911.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Renault|KWID": {
+    "image": "/vehicles/Renault_KWID.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Renault|swift": {
+    "image": "/vehicles/Renault_KWID.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Mercedes-Benz|C-Class": {
+    "image": "/vehicles/Mercedes_C_Class.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Audi|A4": {
+    "image": "/vehicles/Audi_A4.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  },
+  "Kia|Seltos": {
+    "image": "/vehicles/Kia_Seltos.jpg",
+    "attribution": "Automotive photo repository",
+    "license": "Verified Automotive Photograph"
+  }
+}

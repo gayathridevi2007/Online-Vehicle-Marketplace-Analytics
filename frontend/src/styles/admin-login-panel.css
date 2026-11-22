@@ -1,0 +1,100 @@
+/* Admin login panel light theme overrides */
+
+/* Ensure the white card background with light grey border */
+.admin-login-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  color: #111827 !important;
+  border-radius: 12px !important;
+  padding: 28px !important;
+  box-shadow: var(--w-shadow-md) !important;
+}
+
+/* Light input backgrounds and subtle borders */
+.admin-login-card input,
+.admin-login-card textarea,
+.admin-login-card select {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  color: #111827 !important;
+  border-radius: 8px !important;
+  padding: 9px 11px !important;
+}
+
+/* Ensure the surrounding shell has a light page background */
+.resale-review-shell {
+  background: #f8f9fa !important; /* Same as buyer page background */
+}
+
+/* Keep the primary button styling from existing buyer theme – no changes needed */
+
+/* Adjust label text to dark readable color */
+.admin-login-card label span {
+  color: #111827 !important;
+}
+
+/* Admin login: improve text contrast only */
+.admin-login-page h1,
+.admin-login-page h2 {
+  color: #172554 !important;
+}
+
+.admin-login-page p,
+.admin-login-page .admin-login-description {
+  color: #475569 !important;
+}
+
+.admin-login-page label {
+  color: #334155 !important;
+}
+
+.admin-login-page .customer-eyebrow,
+.admin-login-page .admin-login-eyebrow {
+  color: #2563eb !important;
+}
+
+.admin-login-page input {
+  color: #1e293b !important;
+  background: #ffffff !important;
+  border-color: #cbd5e1 !important;
+}
+
+.admin-login-page a {
+  color: #2563eb !important;
+}
+
+.admin-login-page button {
+  /* Preserve existing primary button appearance */
+}
+
+.admin-login-page .resale-notice,
+.admin-login-page .admin-login-notice {
+  color: #334155 !important;
+  background: #eff6ff !important;
+  border-color: #bfdbfe !important;
+}
+
+/* FINAL FIX: Staff Authentication message readability */
+.admin-staff-auth-box {
+  background: #eff6ff !important;
+  border: 1px solid #bfdbfe !important;
+  color: #334155 !important;
+  opacity: 1 !important;
+}
+
+.admin-staff-auth-box,
+.admin-staff-auth-box p,
+.admin-staff-auth-box span,
+.admin-staff-auth-box div {
+  color: #334155 !important;
+  -webkit-text-fill-color: #334155 !important;
+  opacity: 1 !important;
+}
+
+.admin-staff-auth-box strong,
+.admin-staff-auth-box b {
+  color: #1e293b !important;
+  -webkit-text-fill-color: #1e293b !important;
+  font-weight: 700 !important;
+  opacity: 1 !important;
+}
